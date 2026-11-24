@@ -1,4 +1,4 @@
-# sectora-io
+# Sectora
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sectora-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sectora.io/
+Sectora provides a multi-layer application security platform offering DAST, API security, supply chain analysis, secrets detection, vibe coding risk scoring, and PR security gates. It helps organizations protect their software supply chain, detect vulnerabilities early, and enforce security policies across development pipelines.
+
+**Areas:** Application security · SAST · DAST · WAF · Browser Shield · Supply chain security · API security · Threat intelligence
+
+## Sectora on APIs.io
+
+Everything profiled for Sectora is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sectora-io/](https://apis.io/providers/sectora-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Sectora SCA API](https://apis.io/apis/sectora-io/sectora-io-sca-api/) — Software Composition Analysis scans analyze your project dependencies for known vulnerabilities, license compliance issues, and outdated packages.
+- [Sectora Scans API](https://apis.io/apis/sectora-io/sectora-io-scans-api/) — Create, list, and manage security scans. Sectora supports multiple scan types including DAST (Dynamic Application Security Testing), API security testing,…
+- [Sectora Secrets API](https://apis.io/apis/sectora-io/sectora-io-secrets-api/) — Secret detection scans identify exposed credentials, API keys, tokens, and other sensitive data in source code and repositories.
+- [Sectora Vulnerabilities API](https://apis.io/apis/sectora-io/sectora-io-vulnerabilities-api/) — Query and manage vulnerability findings across all scans. Vulnerabilities are categorized by severity (critical, high, medium, low, info) and include…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sectora Agentic Access](https://apis.io/agentic-access/sectora-io/sectora-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateScanRequest](https://apis.io/schemas/sectora-io/sectora-io-create-scan-request/)
+- [CreateSCAScanRequest](https://apis.io/schemas/sectora-io/sectora-io-create-scascan-request/)
+- [CreateSecretsScanRequest](https://apis.io/schemas/sectora-io/sectora-io-create-secrets-scan-request/)
+- [PaginatedResponse](https://apis.io/schemas/sectora-io/sectora-io-paginated-response/)
+- [Scan](https://apis.io/schemas/sectora-io/sectora-io-scan/)
+- [Vulnerability](https://apis.io/schemas/sectora-io/sectora-io-vulnerability/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sectora Io Context](https://apis.io/jsonld/sectora-io/sectora-io-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Sectora Openapi Overlay](https://apis.io/overlays/sectora-io/sectora-io-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sectora API Rules](https://apis.io/rules/sectora-io/sectora-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sectora Authentication](https://apis.io/security/sectora-io/sectora-io-authentication/)
+- [Sectora Domain Security](https://apis.io/security/sectora-io/sectora-io-domain-security/)
+- [Sectora Vulnerability Disclosure](https://apis.io/security/sectora-io/sectora-io-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Sectora Rate Limits](https://apis.io/rate-limits/sectora-io/sectora-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sectora.io/)
+- [Documentation](https://docs.sectora.io/)
+- [Getting started](https://sectora.io/docs/quick-start)
+- [Pricing](https://sectora.io/pricing)
+- [Security](https://sectora.io/security)
+- [Terms of service](https://sectora.io/legal/terms)
+- [Privacy policy](https://sectora.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.6** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 63.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 35.2 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 36.2 |
+
+**Agent readiness 34.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sectora-io/](https://apis.io/providers/sectora-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sectora: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sectora-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
